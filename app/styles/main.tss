@@ -1,0 +1,151 @@
+"Window": {
+  backgroundColor: "#FFFFFF"
+}
+".basicWindow": {
+	barColor:'#00A0E9',
+	barImage:'/images/main_header_logo.png',
+}
+
+// tab1〜4
+".tab1": {
+	icon:'/images/tab_profile_list.jpg',
+	title:'さがす'
+}
+".tab2": {
+	icon:'/images/tab_contact_list.jpg',
+	title:'相手から'
+}
+".tab3": {
+	icon:'/images/tab_message_list.jpg',
+	title:'メッセージ'
+}
+".tab4": {
+	icon:'/images/tab_setting.jpg',
+	title:'設定'
+}
+
+// profileList
+".profileHeader": {
+	width: Ti.UI.FULL,
+    height: 35,
+    backgroundColor: "#EEE",
+    left: 0,
+    top: 0
+}
+".profileCount": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+    text: "＊人",
+    font: {
+        fontSize: "12",
+        fontFamily: "HiraKakuProN-W3"
+    }
+}
+".profileTable": {
+	width: Ti.UI.FULL,
+    height: Ti.UI.FULL,
+    backgroundColor: "#fff",
+    separatorColor: "#ccc",
+    left: 0,
+    top: 35
+}
+".profileRow": {
+	width: Ti.UI.FULL,
+	height: 100,
+	borderWidth: 0
+}
+".profilePhoto": {
+	width: 80,
+    height: 80,
+    top: 10,
+    left: 10,
+    borderRadius: 40,
+    image: "/images/sample.jpg"
+}
+".profileLabel": {
+	width: 200,
+    height: 20,
+    top: 10,
+    left: 110,
+    color: "#222",
+    font: {
+        fontSize: "16",
+        fontFamily: "HiraKakuProN-W3"
+    }
+}
+".profileBalloon": {
+	width: 200,
+    height: 50,
+    top: 40,
+    left: 110,
+    borderWidth: 1,
+    borderRadius: 5,
+    borderColor: '#153F97',
+    backgroundColor: '#FFF'
+}
+".balloonLabel": {
+	width: 190,
+    height: 40,
+    left: 5,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+    color: "#222",
+    font: {
+        fontSize: "12",
+        fontFamily: "HiraKakuProN-W3"
+    }
+}
+".profileLink": {
+	width: Ti.UI.FULL,
+    height: 100,
+    top: 0,
+    left: 0
+}
+// chatList
+".chatTable": {
+	width: Ti.UI.FULL,
+    height: Ti.UI.FULL,
+    backgroundColor: "#fff",
+    separatorColor: "#ccc",
+    left: 0,
+    top: 0
+}
+".chatRow": {
+	width: Ti.UI.FULL,
+    height: 70,
+    borderWidth: 0
+}
+".chatPhoto": {
+	width: 50,
+    height: 50,
+    top: 10,
+    left: 10,
+    image: "/images/sample.jpg"
+}
+".chatLabel": {
+	width: 170,
+    height: 20,
+    top: 10,
+    left: 80,
+    color: "#222",
+    font: {
+        fontSize: "16",
+        fontFamily: "HiraKakuProN-W3"
+    }
+}
+".chatMessage": {
+	width: 170,
+    height: 20,
+    top: 30,
+    left: 80,
+    color: "#CCC",
+    font: {
+        fontSize: "12",
+        fontFamily: "HiraKakuProN-W3"
+    }
+}
+".chatLink": {
+	width: Ti.UI.FULL,
+    height: 70,
+    top: 0,
+    left: 0
+}
